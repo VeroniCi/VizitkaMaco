@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malířství Maco</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f6f9; margin: 0; padding: 50px 20px; }
+        .card { max-width: 380px; margin: 0 auto; background: white; padding: 40px 30px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        .logo { max-width: 140px; height: auto; margin-bottom: 15px; }
+        .jmeno-img { max-width: 240px; height: auto; margin-bottom: 25px; display: block; margin-left: auto; margin-right: auto; }
+        
+        /* Styl pro tlačítko */
+        .btn-save { 
+            display: inline-block; 
+            background-color: #007bff; 
+            color: white; 
+            text-decoration: none; 
+            font-size: 16px; 
+            font-weight: bold; 
+            padding: 14px 28px; 
+            border-radius: 50px; 
+            box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+            transition: all 0.2s ease;
+        }
+        .btn-save:hover { background-color: #0056b3; transform: translateY(-2px); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="MacoWebVizitka.png" alt="Vizitka Maco" class="logo">
+        
+        <!-- Tlačítko pro stažení/uložení kontaktu -->
+        <a href="kontakt.vcf" class="btn-save" download="kontakt.vcf">Uložit kontakt</a>
+    </div>
+</body>
+</html>
