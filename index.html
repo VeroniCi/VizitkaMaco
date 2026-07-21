@@ -23,6 +23,20 @@
             transition: all 0.2s ease;
         }
         .btn-save:hover { background-color: #859772; transform: translateY(-2px); }
+
+        .btn-call { 
+            display: inline-block; 
+            background-color: #32622f; 
+            color: white; 
+            text-decoration: none; 
+            font-size: 16px; 
+            font-weight: bold; 
+            padding: 14px 28px; 
+            border-radius: 50px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            transition: all 0.2s ease;
+        }
+        .btn-call:hover { background-color: #859772; transform: translateY(-2px); }
     </style>
 </head>
 <body>
@@ -31,6 +45,10 @@
         
         <!-- Tlačítko pro stažení/uložení kontaktu -->
         <a href="kontakt.vcf" class="btn-save" download="kontakt.vcf">Uložit kontakt</a>
+
+        <!-- NOVÉ TLAČÍTKO: Volat (přepiš číslo v href i v textu) -->
+        <a href="tel:+4206O4401860" class="btn btn-call">Volat</a>
+        
     </div>
 </body>
 </html>
